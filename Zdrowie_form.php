@@ -24,21 +24,4 @@
 
 
 
-
-<?php
-
-
-	/*
-	<label>Produkt:</label>
-		<select name="rozwin">
-			<option value="jar">Jarmuż</option>
-			<option value="dyn">Dynia</option>
-			<option value="jag">Czarne jagody</option>
-			<option selected value="mal">Maliny</option>
-		</select>
-
-	
-	*/
-?>
-
 </html>
