@@ -15,7 +15,8 @@
 	<div><label><input type="radio" name="wybor" value="2">Dynia</label></div>
 	<div><label><input type="radio" name="wybor" value="3">Czarne jagody</label></div>
 	<div><label><input type="radio" name="wybor" value="4">Maliny</label></div>
-	
+	<div><label><input type="radio" name="wybor" value="1" checked>Ogórek</label></div>
+		
 	</fieldset>
 	
 	</div>
