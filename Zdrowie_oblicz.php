@@ -102,6 +102,7 @@ $jarmuz = new Produkty("jarmuż", 36, 3.3, 0.7, 6.1, 3.8, 12, 530, 157, 56, 30, 
 $dynia = new Produkty("dynia", 33, 1.3, 0.3, 7.7, 2.8, 4, 278, 66, 43, 14, 0.8, 496, 2974, 0, 1.03, 0.05, 0.12, 0.5, 8);
 $czarne_jagody = new Produkty("czarne jagody", 51, 0.8, 0.6, 12.2, 3.2, 1, 62, 15, 14, 2, 0.7, 6, 34, 0, 1.88, 0.018, 0.018, 0.28, 14.7);
 $maliny = new Produkty("maliny", 42, 1.3, 0.3, 12, 6.7, 2, 203, 35, 33, 20, 0.8, 3, 16, 0, 0.48, 0.018, 0.062, 0.26, 31.4);
+$ogorek = new Produkty("ogórek");
 
 if ($wybor==1)
 {	
@@ -118,6 +119,10 @@ elseif ($wybor==3)
 elseif ($wybor==4)
 {
 	echo $maliny->oblicz();
+}
+elseif ($wybor==5)
+{
+	echo $ogorek->oblicz();
 }
 	
 ?>
