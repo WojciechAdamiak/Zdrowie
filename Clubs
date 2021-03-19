@@ -1,0 +1,17 @@
+class Club:
+    def __init__(self, name, year):
+        self.name = name
+        self.year = year
+
+     def Podaj_nazwe(self, powitanie = "Hej"):
+    return powitanie + ", klub nosi nazwę " + self.name + "został założony w " + str(self.year) + " roku."
+
+first_club = Club("Manchester United", 1878)
+print(first_club.name)
+print(first_club.Podaj_nazwe("Witajcie"))
+second_club = Club("Juventus Turin", 1897)
+second_club.name = "Juventus Turin"
+print(second_club.name)
+print(second_club.Podaj_nazwe())
+
+# Przyjeło sie że klasy powinniśmy zaczynać z duzej litery
